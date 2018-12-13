@@ -1,0 +1,45 @@
+.header {
+    width:100%;
+    background-color:red;
+    height:200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+}
+.image-container {
+    width:100%;
+    background-color:lime;
+    height:500px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.image-container img {
+    height: 230px;
+    width: 250px;
+    border:10px dotted orange;
+}
+.footer {
+    width:100%;
+    background-color:yellow;
+    height:150px;
+    display:flex;
+        justify-content: center;
+  
+}
+ h1{
+     font-size: 55px;
+      color: #00ff00;
+ }
+ h3{
+     font-size: 40px;
+     color: blue;
+     
+ }
+ .footer button {
+     height:100px;
+     width:200px;
+ }
